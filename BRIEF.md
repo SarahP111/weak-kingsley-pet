@@ -40,3 +40,35 @@ Build an interactive desktop pet featuring **Weak Kingsley** from *Cyberpunk: Ed
 4. Load a placeholder Weak sprite, get idle, hover and click working, and add speech bubbles.
 5. Add the Claude Code hook as an optional step.
 6. Push to GitHub once the owner has provided the repo URL.
+
+## Reactions and speech
+
+### Rule
+Weak reacts to many events on the owner's computer, but **every word he says comes from the script below.** No generic system messages (no "Battery low", "Download complete" in a robot voice). If an event has no line, he reacts with animation and silence.
+
+### Triggers and reactions
+| Trigger | Reaction | Speech (pick one at random) |
+|---|---|---|
+| Claude Code starts a job | Watches, hand on chin | "Let's see what we're dealing with." |
+| Claude Code finishes | Short nod, no victory pose | "Done. Clean job." / "Not bad. Not that man anymore, but not bad." |
+| Claude Code needs permission | Calm, not alarmed | "You sure about this one?" |
+| Claude Code hits an error | Freezes for a second | "Hold. Count the exits." |
+| Emptying the Trash | Freezes for a second | "Hold. Count the exits." |
+| Running an installer or downloaded file | Freezes for a second | "Who sent this?" |
+| Closing a window with unsaved work | Freezes for a second | "Save it. Always save it." |
+| USB or charger plugged in | Quick glance | "New hardware. Don't trust it yet." |
+| Battery critically low | Drops to low-draw mode | "Running on fumes. Figures." |
+| CPU maxed for a while | Low-draw mode, fewer animations | "My chrome's running hot. Give me a minute." |
+| Screenshot or screen recording | Turns away | "Don't film me." |
+| Clicked (quick) | Looks up | "What." |
+| Clicked (5 times) | Takes glasses off | "Alright. You've got my attention." |
+| Clicked the urn | Quiet pause | "She'd have had something to say about this." |
+| Idle for 10 minutes | Puts glasses back on, dozes | (no speech) |
+
+### Lines to avoid
+- Anything that romanticises self-harm or despair.
+- Anything that quotes a line from the show or the voice actor's recordings. Write new lines in his voice.
+- Anything that claims he is Talia's father. Sources disagree on this.
+
+### Tone check
+Dry, tired, precise. Plans instead of fighting. Protective of people he's watching over. Never cheerleader energy.
